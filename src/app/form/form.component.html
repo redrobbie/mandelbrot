@@ -1,0 +1,10 @@
+<h3>Enter values for x, y & s</h3>
+
+<label for="x">x: </label>
+<input type="text" #x name="x coordinate" value="-0.5"><br/>
+<label for="y">y: </label>
+<input type="text" #y name="y coordinate" value="0.0"><br/>
+<label for="s">s: </label>
+<input type="text" #s name="s value" value="2.0"><br/>
+<br/>
+<button (click)="onClickMe(x, y, s)">Submit</button>
